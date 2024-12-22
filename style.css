@@ -1,0 +1,94 @@
+#header, #footer{
+    background-color: black;
+    padding-bottom: 1px;
+}
+
+#title{
+    background-color: #141726;
+    height: 550px;
+}
+
+#hero{
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+h1{
+    color: white;    
+}
+
+.h1resume{
+    color: black;
+}
+
+.mainquote{
+    background-color: #0097b2;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.heroimages{
+    border-radius: 50%;
+}
+
+body{
+    background-color: #141726;
+}
+
+#resume{
+background-color: white;
+margin: 20px;
+
+}
+
+#contactme{
+    min-height: 680px;
+}
+
+.form{
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 50px;
+    max-width: 700px;
+
+}
+
+/* About me page */
+
+#aboutme{
+    background-color: rgb(215, 248, 240);
+    min-height: 1400px;
+    padding: 30px;
+}
+
+
+
+#projects{
+    background-color: #0097b2;
+    min-height: 750px;  
+    padding-bottom: 50px;
+    background: linear-gradient(300deg, #00bfff, #141726, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+@media (max-width: 991px){
+    #projects{
+        min-height: 1350px
+
+    }
+}
